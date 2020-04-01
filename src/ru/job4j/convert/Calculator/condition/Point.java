@@ -10,7 +10,7 @@ public class Point {
         double d = Math.pow(c, 2);
         return (d);
     }
-    public static void main(String[]args){
+    public static void main(String[]args) {
         double s = Point.distance(0,0,2,0);
         System.out.println(s);
     }
